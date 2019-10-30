@@ -1,0 +1,1 @@
+This repository contains detailed notes on various data structures and algorithms. This repository also contains their implementation details as tried by me.
