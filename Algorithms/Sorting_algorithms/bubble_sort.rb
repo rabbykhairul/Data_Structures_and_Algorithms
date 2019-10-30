@@ -1,3 +1,8 @@
+# ======
+# Time Complexity: O(N^2)
+# Space Complexity: O(1)
+# ======
+
 def bubble_sort(array)
     unsorted_until_index = array.length - 1
     sorted = false
