@@ -1,4 +1,7 @@
-# Binary search algorithm implemented in Ruby
+# ======
+# Time Complexity: O(logN)
+# Space Complexity: O(1)
+# ======
 
 def binary_search(array, value)
     
