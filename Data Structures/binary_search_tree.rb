@@ -49,7 +49,6 @@ class BinaryTreeNode
 
         if left_child.value == value
             self.left_child = left_child.successor_node
-            puts
         else
             left_child.delete(value)
         end
@@ -184,14 +183,15 @@ end
 n1 = BinaryTreeNode.new(50)
 bTree = BinarySearchTree.new(n1)
 
+# Insertion
 values = [ 25, 10, 75, 56, 33, 40, 30, 4, 11, 89, 82, 52, 61, 95 ]
 values.each { |value| bTree.insert(value) }
 
-# # Searching
+# Searching
 # p bTree.has_value?(89)
 # p bTree.has_value?(100)
 
-# traverse / reading
+# Traverse / Reading
 # bTree.travarse
 
 # Deletion
@@ -219,9 +219,3 @@ bTree.travarse
 
 bTree.delete(25)
 bTree.travarse
-
-bTree.delete(56)
-bTree.travarse
-# p "========"
-# p bTree.root_node.value
-# bTree.travarse
