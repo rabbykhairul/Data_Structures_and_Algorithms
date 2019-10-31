@@ -1,6 +1,6 @@
 # ===========
 # Time Complexity:
-#   Worst Case: O((N^2 / 2) + (N^2 / 2) + N - 1 + N - 1) ~ O(N^2 + 2N - 2) ~ O(N^2)
+#   Worst Case: O((N^2 / 2) + (N^2 / 2) + N - 1 + N - 1) ~ O(N^2 + 2N - 2) ~ O(N^2 + N) ~ O(N^2)
 #   Best Case: O(N + N - 1 + N - 1) ~ O(3N - 2) ~ O(N)
 #   Average Case: O(N^2 / 2)
 # Space Complexity: O(1)
